@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    font-family: 'Popins' ,sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.laSi {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+}
+.laSi .langSection {
+    width:130px;
+    height: 30px;
+    margin: 10px;
+    background: transparent;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    
+}
+.laSi button {
+   
+    width: 80px;
+    height: 30px;
+    background-color: #ff0000;
+    border-style: none;
+    border-radius: 5px;
+}
+.language, .signin {
+    border: 1px;
+    padding: auto; 
+}
+.container{
+    background-image:linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)),url('./icons/netflixHome.jpg');
+     height: 700px;
+     background-size: cover;
+     background-position: center;
+    
+}
+.landing {
+   padding-top: 160px;
+   text-align: center;
+    
+    
+}
+
+
+.home h1 {
+    font-size: 50px;
+    display: inline;
+}
+
+
+#logo{
+    width: 200px;
+    height: 100px;
+    align-items: left;
+}
+#navLink {
+    align-items: flex-end;
+}
+
+.subscription {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.subscription button {
+    margin: 10px;
+    margin-top: 0;
+    background-color: #ff0000;
+    border-style: none;
+    border-radius: 5px;
+    
+
+}
+
+.email {
+    width: 450px;
+    height: 45px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.start {
+    height: 50px;
+    width: 200px;
+    background-color:#ff0000;
+}
+#Container2, #Container3, #Container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-bottom: 100px;
+    
+}
+.enjoy {
+padding-top: 140px;
+padding-left: 50px;
+color: white;
+}
+.netflixtv1 {
+padding-top: 100px;;
+}
+#netflixtv1, #netflixtv2, #netflixtv3 {
+    width: 500px;
+    
+}
+.download {
+    padding-right: 100px;
+    padding-top: 140px;
+}
+#netflixtv2 {
+    padding-left: 50px;
+}
+#netflixtv3, #netflixtv1{
+    padding-right: 50px;
+}
+.containerQ {
+    padding-top: 10px;
+   
+    margin: 0;
+}
+#netflixQ {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(83, 91, 90);
+}
+#footer {
+    margin: 10px;
+    padding: 10px;
+    padding-top: 50px;
+   
+}
+.foot {
+    padding-top: 40px;
+}
+#footerList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+#netflixQ {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 50px;
+    padding-right: 80px;
+    padding-top: 40px;
+    
+    
+}
+#sub {
+    
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+    line-height: 10px;
+}
+#footerList .langSection {
+    width:130px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 0;
+    background: transparent;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    
+}
